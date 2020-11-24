@@ -212,7 +212,8 @@ Veremos muchos otros métodos integrados en otros tipos de datos a lo largo de e
 
 ## Introducción a las Funciones
 
-Las funciones son una parte muy importante de todo lenguaje de programacion y sobre todo en JavaScript. Són tipos particulares de Objetos, llamados `callable objects` u objetos invocables, por lo que tienen las mismas propiedades que cualquier objeto.
+Las funciones son una parte muy importante de todo lenguaje de programacion y sobre todo en JavaScript.
+ Són tipos particulares de Objetos, llamados `callable objects` u objetos invocables, por lo que tienen las mismas propiedades que cualquier objeto.
 
 Ahora que tenemos un conjunto de variables, necesitamos funciones para calcularlas, cambiarlas, hacer algo con ellas. Hay tres formas en que podemos construir una función.
 
@@ -230,7 +231,9 @@ Usaremos la primera forma en esta lección y hablaremos sobre las otras formas e
 function miFuncion() {}
 ```
 
-Una función comenzará con la palabra clave `function`, esto le dice a lo que sea que esté ejecutando tu programa que lo que sigue es una función y que debe tratarse como tal. Después de eso viene el nombre de la función, nos gusta dar nombres de funciones que describan lo que hacen. Luego viene un paréntesis abierto y uno cercano. Y finalmente, abra y cierre los corchetes. Entre estos corchetes es donde irá todo nuestro código a ejecutar.
+Una función comenzará con la palabra clave `function`, esto le dice a lo que sea que esté ejecutando tu programa que lo que sigue es una función y que debe tratarse como tal. 
+Después de eso viene el nombre de la función, nos gusta dar nombres de funciones que describan lo que hacen. Luego viene un paréntesis abierto y uno cercano. 
+Y finalmente, abra y cierre los corchetes. Entre estos corchetes es donde irá todo nuestro código a ejecutar.
 
 ```javascript
 function logHola() {
@@ -240,7 +243,8 @@ function logHola() {
 logHola();
 ```
 
-En este ejemplo declaramos una función `logHola` y la configuramos en` console.log` `'hello'`. Entonces podemos ver que para ejecutar esta función, necesitamos escribir el nombre y los paréntesis. Esta es la sintaxis para ejecutar una función. Una función siempre necesita paréntesis para ejecutarse.
+En este ejemplo declaramos una función `logHola` y la configuramos en` console.log` `'hello'`. Entonces podemos ver que para ejecutar esta función, necesitamos escribir el nombre y los paréntesis.
+ Esta es la sintaxis para ejecutar una función. Una función siempre necesita paréntesis para ejecutarse.
 
 ### Argumentos
 
@@ -319,7 +323,7 @@ function puedeManejar(edad) {
 }
 
 puedeManejar(22); // true
-```
+``` 
 
 Aquí estamos tomando un número (`edad`) y verificando si la declaración es` true` (`22>18`), lo es, por lo que devolveremos` true`, y la función se detendrá. Si no es así, omitirá ese código y la función devolverá `false`.
 

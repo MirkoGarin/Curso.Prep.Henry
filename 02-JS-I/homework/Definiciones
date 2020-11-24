@@ -1,0 +1,13 @@
+Definiciones
+	
+	*Variables: son nombres que se le dan a un dato o  datos
+	* Strings: tipo de dato, para que el lenguaje sepa como manejar ese dato. En este caso en un texto o una cadena de texto.
+	* Funciones (argumentos, `return`)
+		#Para No repetir codigo, usamos funciones que agrupen un codigo que puede ser ejecutado varias veces con los diferentes argumento que le vamos pasando.
+	
+		#Argumentos. son datos que se le pasan a la funcion para que procese el codigo.
+		
+		#Return. Hace que la funcion se a obligada a devolveru un valor. despues de return no se ejecuta mas codigo.
+	
+	* Declaraciones `if`: Es un flujo de control. Con if evalua si una condicion es, verdadero o falso,  y nos devuelve, por ejemplo true en el caso de verdadero.
+	* Valores booleanos (`true`, `false`): Tipo de datos que pueden estar en 2 estados distintos,  verdadero o falso.
