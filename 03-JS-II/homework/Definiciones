@@ -1,0 +1,8 @@
+
+
+Definiciones:
+
+* `for`: Bucle o repeticion de codigo que hace lo mismo con diferentes datos, Sirve para no repetir codigo, 
+
+
+* `&&`, `||`, `!`: Operadores Logicos, AND, OR, Negacion. Sirven pra saber si ciertas declaraciones son Verdaderas o Falsas.
